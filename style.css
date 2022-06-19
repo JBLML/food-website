@@ -276,9 +276,7 @@ ul {
         height: 100%;
     }
     .site-header .container .row .col-lg-2 {
-        width: auto;
-        padding: 0;
-        height: 100%;
+        
         position: absolute;
         top: 0;
         left: 30px;
@@ -495,9 +493,9 @@ ul {
     position: absolute;
     left: 85%;
     top: 60px;
-    max-width: 150px;
+    max-width: 200px;
     pointer-events: none;
-    filter: blur(3px);
+    filter: blur(.50px);
 }
 
 .banner-shape-2 {
@@ -528,7 +526,7 @@ ul {
 }
 
 .h1-title span {
-    color: #ff8243;
+    color: #2f834c;
     background-image: linear-gradient(0deg, rgb(13 13 37 /8%), rgb(13 13 37 /8%));
     background-size: 100% 15px;
     background-position: 0 90%;
@@ -551,7 +549,7 @@ p {
 .sec-btn {
     min-width: 120px;
     min-height: 58px;
-    background: #f3f3f5;
+    background: rgba(178, 214, 45, 1);
     box-shadow: 9px 9px 12px #b2b2b3, -9px -9px 12px #ffffff;
     display: inline-flex;
     justify-content: center;
@@ -572,7 +570,7 @@ p {
 
 .sec-btn:hover {
     border-color: #0d0d25;
-    box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
+    box-shadow: inset 9px 9px 12px rgba(178, 214, 45, 1), inset -9px -9px 12px #ffffff;
     color: #0d0d25;
 }
 
